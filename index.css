@@ -1,5 +1,5 @@
 html{
-	font-size:23px;
+	font-size:15px;
     font-family:Courier New;
 }
 body{
@@ -36,16 +36,16 @@ color: white;
 #header>div{
     height: 60%;
     width: 30%;
-    /* border: 2px solid black; */
+    border: 2px solid black;
     display: flex;
     align-items: center;
     justify-content: center;
     opacity: 1;
 }
 #item{
-    height: 320px;     /*     important main item height */
+    height: 250px;     /*     important main item height */
     width: 108%;
-    /* border: 2px solid black; */
+    border: 2px solid black;
     background-color: white;
     display: flex;
     align-items: center;
@@ -60,12 +60,13 @@ color: white;
 #item>div{
     width:40%;
     height: 90%;
-    /* border: 2px solid black; */
+    border: 2px solid black;
+    padding: 5px;
 }
 #item>div>div{
     height: 50%;
     width: 100%;
-    /* border: 2px solid black; */
+    border: 2px solid black;
 }
 #quantity{
    display: flex;
@@ -78,10 +79,29 @@ color: white;
 
 }
 #image{
-    width: 160px;
-    height:160px;
+    width: 110px;
+    height:110px;
     border-radius: 10px;
     border:1px solid black;
     background-color: yellow;
     background-image: url('https://rukminim1.flixcart.com/image/416/416/kobspe80/board/w/g/w/wooden-carrom-board-32-inches-large-size-with-crystal-coins-original-imag2tfxnfyavgru.jpeg?q=70');
 }
+#items{
+    border: 2px solid black;
+    width: 100%;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+#items>div{
+    height: 130px;
+    width: 130px;
+    border: 2px solid black;
+}
+
+#images{
+    margin-right: -50px;
+}
+
