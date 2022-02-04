@@ -1,94 +1,47 @@
-html{
-	font-size:17px;
-    font-family:Courier New;
-}
-body{
-   width:100%;
-   height:auto;
-   margin:-16px;
-   font-family: Palatino Linotype;
-   font-weight: 100;
-   background-color:white;
-    padding-top: 148px;
-font-family: "AvenirNext","Helvetica Neue",Helvetica,Arial,sans-serif;
-font-weight: 500;
--moz-osx-font-smoothing: grayscale;
-margin: auto;
+
+         body{
+               border:2px solid black;
+                width:100%;
+                height:100%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                color:#9E9E9E;
+                margin: 0;
+                background-color: #121212;
+                }
+body>div{
+          width: 70%;
+            height: auto;
+            text-align: center;
+            box-shadow: 0 0 14px -2px black;
+            background-color: rgb(27, 27, 29);
+            border-radius: 16px;
 }
 
-#header{
- width: 100%;
- height: auto;
- /* border: 2px solid black; */
- display: flex;
- flex-wrap: wrap;
- align-items: center;
- justify-content: space-around;
- padding: 20px;
-box-shadow: 1px 1px 10px 1px;
-position: fixed;
-top: 0px;
-/* background-color:rgb(223, 223, 223); */
-background-image: url('https://www.w3schools.com/w3images/forestbridge.jpg');
-color: white;
-
+a{
+    text-decoration: none;
+     color:#9E9E9E;
+     }
+input{
+    height: 40px;
+width: 400px;
+font-size: 20px;
+border-radius: 8px;
+border: 0 0 1px 0;
+background-color: #181818;
+margin:10px;
+border: 0;
+box-shadow: -2px -2px 10px -3px inset black;
+color: #9E9E9E;
 }
-
-#header>div{
-    height: 60%;
-    width: 30%;
-    /* border: 2px solid black; */
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    opacity: 1;
+button{
+    background-color: #d3d3d3;
+    border-radius: 12px;
+    padding: 5px 20px;
 }
-
-#items{
-    /* border: 2px solid black; */
-    width: 103%;
-    height: 170px;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    box-shadow: 1px 1px 10px 1px inset;
+@media screen and (max-width: 700px){
+    input{
+    width:90%;
 }
-
-#pic{
-    height: 90%;
-    width: 150px;
-    border: 1px solid black;
-    display: flex;
-}
-#quantityy{ 
-    height: 90%;
-    width: 70px;
-    /* border: 2px solid black; */
-}
-#pic>div{
-    width:50%;
-    height:100%;
-    /* border: 2px solid black; */
-}
-#detailss{
-padding-left: 6px;
-}
-#pic{
-    border-radius: 15px;
-    background-image: url('https://rukminim1.flixcart.com/image/416/416/kobspe80/board/w/g/w/wooden-carrom-board-32-inches-large-size-with-crystal-coins-original-imag2tfxnfyavgru.jpeg?q=70');
-}
-button>i{
-    font-size: 35px;
-}
-#cars {
-  font-size: 25px;
-}
-#text{
-    width: 100%;
-    padding: 10px;
-    height: auto;
-    text-align: center;
-    background-color: black;
-    color: white;
 }
