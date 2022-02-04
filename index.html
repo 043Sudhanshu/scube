@@ -1,187 +1,38 @@
+
 <html>
     <head>
-        <title>
-            list items
-        </title>
-        <link rel="stylesheet" href="index.css">
+        <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js'></script>
+        <link rel='stylesheet' href='index.css'>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/noty/3.1.4/noty.min.js"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/noty/3.1.4/noty.min.css">
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
             integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
-        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+        <title> signup </title>
     </head>
     <body>
         
-        <div id="header" >
-            <div id = "cart">
-                <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+        
+        <div>
+            <h1> SignUp </h1>
+                        <div id="header">
+                            <i class="fas fa-volleyball-ball"></i> Scubes
+                        </div>
+            <div id='signup'>
+                <form action='/create' method='POST'>
+                    <input type="text" name='name' placeholder="Name" required><br><br>
+                    <input type="text" name='email' placeholder="Email" required><br><br>
+                    <input type="password" name='password' placeholder="Password" required><br><br>
+                    <input type="password" name='confirmpassword' placeholder="Confirm-password" required><br><br>
+                    <button type='submit'>Submit</button>
+                </form>
             </div>
-            <div class="name">
-            <h3>$cubes</h3>
-            </div>
-            <div id="logout">
-                logout
-            </div>
-        </div>
-        <br>
-        <br>
-        <div id = "main">
-            <div id="items">
-                <div id="pic">
-     
-                </div>
-                <div id="quantityy">
-                    
-                    <select name="quantity" id="cars">
-                        <option value="0">0</option>
-                        <option value="1">1</option>
-                        <option value="2">2</option>
-                        <option value="3">3</option>
-                        <option value="4">4</option>
-                        <option value="5">5</option>
-                        <option value="6">6</option>
-                        <option value="7">7</option>
-                        <option value="8">8</option>
-                    </select>
-                    <br>
-                    Quantity &nbsp;
-                    <br>
-                    <button>Add to cart<i class="fa fa-shopping-cart" aria-hidden="true"></i></button>
-                </div>
-            </div>
-            <div id="text">
-                carrom board kachi pilai MRP: 600
-            </div>
-            <hr>
-
-
-
-
-
-
-
-
-
-
-
-
-            <div id="items">
-                <div id="pic">
             
-                </div>
-                <div id="quantityy">
+            <div style="background-color: #42434a;">
+                <h5> <a href='/signin'>click here to signIn</a></h5>
+            </div>
             
-                    <select name="quantity" id="cars">
-                        <option value="0">0</option>
-                        <option value="1">1</option>
-                        <option value="2">2</option>
-                        <option value="3">3</option>
-                        <option value="4">4</option>
-                        <option value="5">5</option>
-                        <option value="6">6</option>
-                        <option value="7">7</option>
-                        <option value="8">8</option>
-                    </select>
-                    <br>
-                    Quantity &nbsp;
-                    <br>
-                    <button>Add to cart<i class="fa fa-shopping-cart" aria-hidden="true"></i></button>
-                </div>
-            </div>
-            <div id="text">
-                carrom board kachi pilai MRP: 600
-            </div>
-            <hr>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-            <div id="items">
-                <div id="pic">
-            
-                </div>
-                <div id="quantityy">
-            
-                    <select name="quantity" id="cars">
-                        <option value="0">0</option>
-                        <option value="1">1</option>
-                        <option value="2">2</option>
-                        <option value="3">3</option>
-                        <option value="4">4</option>
-                        <option value="5">5</option>
-                        <option value="6">6</option>
-                        <option value="7">7</option>
-                        <option value="8">8</option>
-                    </select>
-                    <br>
-                    Quantity &nbsp;
-                    <br>
-                    <button>Add to cart<i class="fa fa-shopping-cart" aria-hidden="true"></i></button>
-                </div>
-            </div>
-            <div id="text">
-                carrom board kachi pilai MRP: 600
-            </div>
-            <hr>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-            <div id="items">
-                <div id="pic">
-            
-                </div>
-                <div id="quantityy">
-            
-                    <select name="quantity" id="cars">
-                        <option value="0">0</option>
-                        <option value="1">1</option>
-                        <option value="2">2</option>
-                        <option value="3">3</option>
-                        <option value="4">4</option>
-                        <option value="5">5</option>
-                        <option value="6">6</option>
-                        <option value="7">7</option>
-                        <option value="8">8</option>
-                    </select>
-                    <br>
-                    Quantity &nbsp;
-                    <br>
-                    <button>Add to cart<i class="fa fa-shopping-cart" aria-hidden="true"></i></button>
-                </div>
-            </div>
-            <div id="text">
-                carrom board kachi pilai MRP: 600
-            </div>
             <br>
-            <br>
-            
-            <hr>
         </div>
-
+        
     </body>
-</html>
+    </html>
