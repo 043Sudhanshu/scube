@@ -1,27 +1,38 @@
 
-         body{
-               border:2px solid black;
-                width:100%;
-                height:100%;
-                display: flex;
-                justify-content: center;
-                align-items: center;
-                color:#9E9E9E;
-                margin: 0;
-                background-color: #121212;
-                }
+body{
+    border:2px solid black;
+    width:100%;
+    height:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:black;
+    margin: 0;
+    background-image: linear-gradient(black,#757575,black);
+    background-position: center;   
+    background-size: cover; 
+        font-family:Courier New;
+}
 body>div{
           width: 70%;
             height: auto;
             text-align: center;
-            box-shadow: 0 0 14px -2px black;
-            background-color: rgb(27, 27, 29);
+            box-shadow: 0 0 25px 10px black;
             border-radius: 16px;
+       
+}
+h1{
+    background-color: #42434a;
+    color: beige;
+}
+::placeholder {
+  color: beige;
+  opacity: 1; /* Firefox */
 }
 
 a{
     text-decoration: none;
-     color:#9E9E9E;
+     color:beige;
      }
 input{
     height: 40px;
@@ -29,11 +40,13 @@ width: 400px;
 font-size: 20px;
 border-radius: 8px;
 border: 0 0 1px 0;
-background-color: #181818;
 margin:10px;
+color: white;
 border: 0;
-box-shadow: -2px -2px 10px -3px inset black;
-color: #9E9E9E;
+background:transparent;
+box-shadow: 0 0 12px 5px black inset ;
+padding-left: 10px;
+   font-family:Courier New;
 }
 button{
     background-color: #d3d3d3;
@@ -44,4 +57,20 @@ button{
     input{
     width:90%;
 }
+}
+
+#header{
+    position: absolute;
+    right: 0px;
+    top: 20px;
+    border:2px solid black;
+    width: 100%;
+    height:50px;
+    color: beige;
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    background-color: 757575;
+    box-shadow: 0 0 25px 10px black inset;
+    padding: 8px;
 }
